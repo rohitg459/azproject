@@ -1,7 +1,7 @@
 [DEFAULT]
 # Account name
-account =storage3121
+account =projectsg16
 # Azure Storage account access key
-key =tf2xNbMuBYORYtd+24fAc2coc8I9C4fJbXwmxgeFlOqyaU4zLhr7TLTC0D9cu6R3aXKhf6yX0TQBaMLh2AHvmw==
+key =10cthiqNfjVNv0UpJkGY3X/Q4ouBd9hWxCjfWpkq0/SrUTSCoXHOfgHOlCrzDhoqQZf3HqlAAagF+AStYblMWw==
 # Container name
 container =upload
