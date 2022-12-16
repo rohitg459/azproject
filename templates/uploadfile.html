@@ -1,13 +1,33 @@
 <html>
-<title>
-File Upload to Azure
-</title>
-<h1>
-Please select the file to upload:
-</h1>
-<form action="" method=post enctype=multipart/form-data>
-<p>
-<input type=file name=file>
-<input type=submit value=Upload></p>
+<head>
+    <title>
+    File Upload to Azure
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1 class="title">
+        Upload Your File Here
+    </h1>
+    <div class="upload">
+
+        <svg class="uploadicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m0-3l-3-3m0 0l-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75" />
+          </svg>
+
+          <p class="hinttext">Drag and Drop or Click here to upload your file</p>
+          
+            
+    <form action="" method=post enctype=multipart/form-data>
+    <p>
+    <input class="uploadimage" type=file name=file>
 </form>
+</div>
+<input class="btn-upload" type=submit value=Upload></p>
+</div>
+</body>
+<footer>
+   <a href="https://intellipaat.com/">www.intellipaat.com</a> 
+</footer>
 </html>
