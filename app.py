@@ -32,7 +32,7 @@ def main():
 @app.route('/upload', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
-        print('http://' + account + '.blob.core.windows.net/' + container + '/' + filename)
+        #print('http://' + account + '.blob.core.windows.net/' + container + '/' + filename)
         file = request.files['file']
         filename = secure_filename(file.filename)
         fileextension = filename.rsplit('.', 1)[1]
