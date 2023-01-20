@@ -32,9 +32,10 @@ def main():
 @app.route('/upload', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
-        #print('http://' + account + '.blob.core.windows.net/' + container + '/' + filename)
+        
         file = request.files['file']
         filename = secure_filename(file.filename)
+        print('http://' + account + '.blob.core.windows.net/' + container + '/' + filename)
         fileextension = filename.rsplit('.', 1)[1]
         try:
             blob_service.create_blob_from_stream(container, filename, file)
