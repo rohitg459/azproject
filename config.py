@@ -1,7 +1,7 @@
 [DEFAULT]
 # Account name
-account =projectsg16
+account =webstgacc
 # Azure Storage account access key
-key =10cthiqNfjVNv0UpJkGY3X/Q4ouBd9hWxCjfWpkq0/SrUTSCoXHOfgHOlCrzDhoqQZf3HqlAAagF+AStYblMWw==
+key =S/b0dcyS6rHn1fSCyh2WeFHNpIc4WzCF42c0bnCIaphC54//FedyLJLs23RAGN6X6hOQUK63gE/I+AStDeOBXA==
 # Container name
 container =upload
